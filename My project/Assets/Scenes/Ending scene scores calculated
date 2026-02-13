@@ -1,0 +1,21 @@
+using UnityEngine;
+
+public class ScoreManager : MonoBehaviour
+{
+    public float startTime;
+    public float issueCount = 0;
+    public float timePenaltyMultipler = 10f; //Points Lost per second 
+    public int issuePenalty = 100; // Points Lost per issue
+    void Start()
+    {
+        startTime = Time.time;
+    }
+
+    public float CalculateFinalScore()
+    {
+        float timeTaken = Time.time - startTime;
+        float finalScore = 1000 - (timeTaken * timePenaltyMultipler) - (issueCount * issuePenalty);
+        return Mathf.Max(0, finalScore); //Ensure score doesn't go below 0
+        
+            }
+        }
