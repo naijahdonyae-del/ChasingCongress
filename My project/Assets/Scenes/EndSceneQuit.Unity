@@ -1,0 +1,22 @@
+using UnityEngine;
+using UnityEditor; //Required for using EditorApplication in the editor
+public class QuitManager : MonoBehaviour
+{
+    // This public function can be called by the UI button
+    public void QuitGame()
+    {
+        //Log a message to the console for testing purposes
+        Debug.Log("Game is exiting");
+
+        //If running in the Unity Editor, stop playing
+#if UNITY_EDITOR
+        EditorApplication.isPlaying = false;
+        //If in a standalone build, quit the application
+#else
+        Application.Quit();
+#endif
+
+    }
+
+   
+}
