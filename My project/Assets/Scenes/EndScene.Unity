@@ -1,0 +1,15 @@
+using UnityEngine;
+using UnityEngine.SceneManagement; //Required for scene management
+public class RestartManager : MonoBehaviour
+{
+    // Public method that can be called by the UI button
+    public void RestartGame()
+    {
+        //Reload the current active scene by its index or name
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        //or
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().
+    }
+
+    
+}
