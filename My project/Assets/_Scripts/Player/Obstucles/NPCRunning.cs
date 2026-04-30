@@ -22,7 +22,7 @@ public class NPCRunning : MonoBehaviour
     {
         float distance = Vector3.Distance(transform.position, Player.transform.position);
 
-        Debug.Log("Distance " + distance);
+      //  Debug.Log("Distance " + distance);
 
         if(distance > EnemyDistanceRun)
         {
