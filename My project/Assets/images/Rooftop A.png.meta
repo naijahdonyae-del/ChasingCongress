@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d7d425339f7c4d641935f2185bd28261
+guid: b97e510903563d347be1e556d1a9b3d4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3334738622998220081
-    second: Sign_0
+      213: 4720598713340168553
+    second: Rooftop A_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sign_0
+      name: Rooftop A_0
       rect:
         serializedVersion: 2
-        x: 23
-        y: 26
-        width: 125
-        height: 98
+        x: 52
+        y: 22
+        width: 76
+        height: 111
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 13d85920c1f574e20800000000000000
-      internalID: 3334738622998220081
+      spriteID: 9698ecbd48fe28140800000000000000
+      internalID: 4720598713340168553
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Sign_0: 3334738622998220081
+      Rooftop A_0: 4720598713340168553
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

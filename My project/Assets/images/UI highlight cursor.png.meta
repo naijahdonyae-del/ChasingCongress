@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: d7d425339f7c4d641935f2185bd28261
+guid: 01e4abf14c9742e4083ac87d9daf9af8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3334738622998220081
-    second: Sign_0
+      213: -2353150918691419097
+    second: UI highlight cursor_0
+  - first:
+      213: -7958195685188537608
+    second: UI highlight cursor_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sign_0
+      name: UI highlight cursor_0
       rect:
         serializedVersion: 2
-        x: 23
+        x: 21
         y: 26
-        width: 125
-        height: 98
+        width: 50
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +131,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 13d85920c1f574e20800000000000000
-      internalID: 3334738622998220081
+      spriteID: 72c838cf4bde75fd0800000000000000
+      internalID: -2353150918691419097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI highlight cursor_1
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 25
+        width: 51
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f27a4b403fce8190800000000000000
+      internalID: -7958195685188537608
       vertices: []
       indices: 
       edges: []
@@ -148,7 +173,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Sign_0: 3334738622998220081
+      UI highlight cursor_0: -2353150918691419097
+      UI highlight cursor_1: -7958195685188537608
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
