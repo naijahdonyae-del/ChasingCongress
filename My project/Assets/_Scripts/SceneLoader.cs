@@ -1,7 +1,6 @@
 using UnityEngine.SceneManagement;
 using UnityEngine;
 using System.Collections;
-using UnityEditor.EditorTools;
 using UnityEngine.UI;
 
 public class SceneLoader : MonoBehaviour
