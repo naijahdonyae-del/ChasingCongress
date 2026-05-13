@@ -9,6 +9,8 @@ public class NPCRunning : MonoBehaviour
 
     public float EnemyDistanceRun = 4.0f;
 
+    [SerializeField] private Animator _animator;
+
 
     void Start()
     {
@@ -21,6 +23,7 @@ public class NPCRunning : MonoBehaviour
     void Update()
     {
         float distance = Vector3.Distance(transform.position, Player.transform.position);
+        
 
       //  Debug.Log("Distance " + distance);
 
@@ -28,9 +31,21 @@ public class NPCRunning : MonoBehaviour
         {
             Vector3 dirToPlayer = transform.position - Player.transform.position;
 
+
             Vector3 newPos = transform.position + dirToPlayer;
 
+           
+
             _agent.SetDestination(newPos);  
+        }
+
+        if (EnemyDistanceRun == 4.0f)
+        {
+            _animator.SetBool("OnRun1", true);
+        }
+        else if (EnemyDistanceRun == 8.0f)
+        {
+            _animator.SetBool("OnRun1", false);
         }
     }
 }

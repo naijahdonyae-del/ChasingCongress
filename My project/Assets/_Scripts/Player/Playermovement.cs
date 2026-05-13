@@ -11,6 +11,8 @@ public class Playermovement : MonoBehaviour
     public InputActionReference move;
     public InputActionReference interact; //For dialogue and other options
 
+    [SerializeField] private Animator _animator;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -22,6 +24,15 @@ public class Playermovement : MonoBehaviour
     void Update()
     {
         _moveDirection = move.action.ReadValue<Vector2>();
+        if (_moveDirection != Vector2.zero)
+        {
+            _animator.SetBool("Onrun", true);
+        }
+        else
+        {
+            _animator.SetBool("Onrun", false);
+
+        }
 
     }
 
